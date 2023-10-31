@@ -14,5 +14,4 @@ elif last_digit == 0:
 else:
     status = "and is less than 6 and not 0"
 
-print(f"The string Last digit of {number} is {last_digit} {status}")
-
+print(f"Last digit of {number} is {last_digit} {status}")
