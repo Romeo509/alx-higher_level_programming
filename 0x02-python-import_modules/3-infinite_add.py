@@ -8,4 +8,3 @@ if __name__ == "__main__":
     elif num_args > 0:
         total = sum(int(arg) for arg in sys.argv[1:])
         print("{}".format(total))
-
