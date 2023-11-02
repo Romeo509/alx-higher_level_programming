@@ -39,22 +39,22 @@ This project illustrates python basic programming easy to learn.
 
 2).Running Python Code: You can now start typing Python code directly after the >>> prompt and press Enter to execute each line of code. For example, you can do simple calculations:
 
-2 + 2 4 print("Hello, Python!") Hello, Python!
+   2 + 2 4 print("Hello, Python!") Hello, Python!
 
 3).Exiting the Interpreter:
 
 To exit the Python interpreter, you can use the exit() function, Ctrl+Z followed by Enter on Windows, or Ctrl+D on macOS and Linux. This will return you to the regular command prompt or terminal. Example:
 
-exit() $
+   exit() $
 
 4).Multi-Line Statements: For multi-line statements, you can use backslashes \ to indicate that the statement continues on the next line, or you can use parentheses to group the lines. Example with backslashes:
 
-a = 5 +
-... 3 a 8
+   a = 5 +
+   ... 3 a 8
 
 5).Running Scripts:
 
-script.py
-print("Hello from a Python script!")
+   script.py
+   print("Hello from a Python script!")
 
 Save It And Execute $ python script.py Hello from a Python script!
