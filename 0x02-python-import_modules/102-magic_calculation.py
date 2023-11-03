@@ -9,4 +9,3 @@ def magic_calculation(a, b):
         sub = __import__('magic_calculation_102').sub
         c = sub(a, b)
     return c
-
