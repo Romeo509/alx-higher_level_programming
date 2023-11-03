@@ -3,7 +3,7 @@ def magic_calculation(a, b):
     c = 0
     if a < b:
         add = __import__('magic_calculation_102').add
-        for i in range(a, b):
+        for i in range(4, 6):
             c = add(c, i)
     else:
         sub = __import__('magic_calculation_102').sub
