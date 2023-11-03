@@ -22,4 +22,4 @@ if __name__ == '__main__':
         elif sys.argv[2] == '*':
             print('{:d} * {:d} = {:d}'.format(a, b, mul(a, b)))
         elif sys.argv[2] == "/":
-            print('{:d} / {:d} = {:d}'.format(a, b, div(a, b)))
+            print('{:d} / {:d} = {:g}'.format(a, b, div(a, b)))
