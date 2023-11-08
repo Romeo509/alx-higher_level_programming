@@ -14,4 +14,3 @@ def weight_average(my_list):
         return 0.0
 
     return total_score / total_weight
-
