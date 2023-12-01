@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+"""
+The 0-add_integer test module.
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Using "add_integer"
+++++++++++++++++++++++++++++++++++++
+
+Import function from module:
+
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+Test one int argument:
+    >>> add_integer(2)
+    100
+
+Test one int argument and check default second:
+    >>> add_integer(0)
+    98
+
+# ... (other test cases)
+"""
+
+def add_integer(a, b=98):
+    """
+    Adds 2 integers.
+
+    >>> add_integer(1, 2)
+    3
+    # ... (other test case descriptions)
+    """
+
