@@ -3,7 +3,7 @@
 
 
 def append_write(filename="", text=""):
-    """ appends a string at the end of a text file 
+    """ appends a string at the end of a text file
     Args:
         filename (str): name of the file.
         text (str): Text to append to the file.
