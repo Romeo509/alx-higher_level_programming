@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Function for write_file method.
+"""
+
 
 def write_file(filename="", text=""):
     """Writes a string to a text file (UTF8)
