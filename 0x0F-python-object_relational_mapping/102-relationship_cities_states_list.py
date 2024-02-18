@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
-Lists all City objects from the database hbtn_0e_101_usa.
+Prints the City objects linked to a State with the
+name passed as an argument from the database.
 """
 
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from relationship_state import Base, State, City
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
@@ -23,9 +25,13 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    cities = session.query(City).order_by(City.id).all()
+    state_name = sys.argv[4]
+    state = session.query(State).filter_by(name=state_name).first()
 
-    for city in cities:
-        print("{}: {} -> {}".format(city.id, city.name, city.state.name))
+    if state:
+        for city in state.cities:
+            print("{}: {} -> {}".format(city.id, city.name, state.name))
+    else:
+        print("State not found in the database")
 
     session.close()
