@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+chmode u+x *
+git add .
+git commit -m "done"
+git push
