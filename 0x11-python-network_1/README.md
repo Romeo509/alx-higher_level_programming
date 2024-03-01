@@ -28,19 +28,19 @@ example(GET):
 
 <h3>Making HTTP POST/PUT/etc. Request: </h3>
 Use requests.post(), requests.put(), etc., for different HTTP methods.
-example(POST):
+
     data = {'key': 'value'}
     response = requests.post('https://example.com/api', data=data)
 
 <h3>etching JSON Resources: </h3>
 Use response.json() to parse JSON content.
-exaple:
+
     json_data = response.json()
 
 
 <h3>Manipulating Data from an External Service:</h3>
 After fetching data, manipulate it based on your requirements.
-example:
+
     Assuming json_data is a JSON response
     value = json_data['key']
 
