@@ -11,15 +11,15 @@ example:
 <h3>Decoding urllib Body Response: </h3>
 Use the .decode() method on the response content to convert it from bytes to a string.
 example:
-    decoded_html = html.decode('utf-8')
+    <p> decoded_html = html.decode('utf-8')</p>
 
 <h3>Using the requests Package: </h3>
 The requests package simplifies HTTP requests compared to urllib.
 Install it with: pip install requests.
-example:
-    import requests
+example
+<pre>    import requests
     response = requests.get('https://example.com')
-    content = response.text
+    content = response.text</pre>
 
 <h3>Making HTTP GET Request: </h3>
 Use the requests.get() function to make a GET request.
