@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+Script that lists 10 commits (from the most recent to oldest)
+of a GitHub repository by a specified user.
+"""
+
 
 import requests
 from sys import argv
