@@ -32,7 +32,7 @@ Use requests.post(), requests.put(), etc., for different HTTP methods.
     data = {'key': 'value'}
     response = requests.post('https://example.com/api', data=data)
 
-<h3>etching JSON Resources: </h3>
+<h3>Fetching JSON Resources: </h3>
 Use response.json() to parse JSON content.
 
     json_data = response.json()
@@ -44,28 +44,3 @@ After fetching data, manipulate it based on your requirements.
     Assuming json_data is a JSON response
     value = json_data['key']
 
-Updated at Sat Mar  2 12:31:18 AM UTC 2024
-Updated at Sat Mar  2 12:31:40 AM UTC 2024
-Updated at Sat Mar  2 12:31:58 AM UTC 2024
-Updated at Sat Mar  2 12:32:18 AM UTC 2024
-Updated at Sat Mar  2 12:32:35 AM UTC 2024
-Updated at Sat Mar  2 12:32:55 AM UTC 2024
-Updated at Sat Mar  2 12:33:12 AM UTC 2024
-Updated at Sat Mar  2 12:33:31 AM UTC 2024
-Updated at Sat Mar  2 12:33:50 AM UTC 2024
-Updated at Sat Mar  2 12:34:42 AM UTC 2024
-Updated at Sat Mar  2 12:34:59 AM UTC 2024
-Updated at Sat Mar  2 12:35:44 AM UTC 2024
-Updated at Sat Mar  2 12:36:02 AM UTC 2024
-Updated at Sat Mar  2 12:36:19 AM UTC 2024
-Updated at Sat Mar  2 12:36:36 AM UTC 2024
-Updated at Sat Mar  2 12:36:54 AM UTC 2024
-Updated at Sat Mar  2 12:37:43 AM UTC 2024
-Updated at Sat Mar  2 12:38:13 AM UTC 2024
-Updated at Sat Mar  2 12:38:44 AM UTC 2024
-Updated at Sat Mar  2 12:39:02 AM UTC 2024
-Updated at Sat Mar  2 12:39:20 AM UTC 2024
-Updated at Sat Mar  2 12:39:38 AM UTC 2024
-Updated at Sat Mar  2 12:39:56 AM UTC 2024
-Updated at Sat Mar  2 12:40:12 AM UTC 2024
-Updated at Sat Mar  2 12:40:29 AM UTC 2024
