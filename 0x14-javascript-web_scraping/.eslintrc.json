@@ -1,0 +1,6 @@
+{
+  "extends": ["semistandard", "airbnb-base"],
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
